@@ -1,0 +1,14 @@
+
+public class Dice {
+int low, high;
+public Dice (int x , int y){
+	low = x;
+	high = y;
+}
+public int computerNumber (){
+	int computer;
+	computer = low +(int)(Math.random() * high);
+	return computer;
+	
+}
+}
